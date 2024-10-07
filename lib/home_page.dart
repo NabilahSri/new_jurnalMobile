@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as slider_controller;
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:jurnal_prakerin/banner_page.dart';
@@ -161,8 +161,8 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  CarouselSlider caraouseSlider() {
-    return CarouselSlider(
+  slider_controller.CarouselSlider caraouseSlider() {
+    return slider_controller.CarouselSlider(
       items: artikel.map((item) {
         return Builder(
           builder: (BuildContext context) {
@@ -187,7 +187,7 @@ class _HomePageState extends State<HomePage> {
           },
         );
       }).toList(),
-      options: CarouselOptions(
+      options: slider_controller.CarouselOptions(
         height: 120,
         // aspectRatio: 16 / 9,
         // viewportFraction: 0.8,
