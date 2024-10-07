@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "818058500283",
+    "project_id": "jurnal-prakerin",
+    "storage_bucket": "jurnal-prakerin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818058500283:android:5e521bcde6e46cc44df19e",
+        "android_client_info": {
+          "package_name": "com.example.jurnal_prakerin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX2nEmDaET0uAfHHKUx9BKcM6ITpnTJQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
